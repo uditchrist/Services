@@ -18,6 +18,17 @@
 
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/style.css">
+     <script
+          src="https://code.jquery.com/jquery-3.3.1.js"
+          integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+          crossorigin="anonymous">
+          </script>
+          <script> 
+          $(function(){
+          // $("#header").load("header.html"); 
+          $("#footer").load("./footer.html"); 
+     });
+     </script>
 
 </head>
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
@@ -42,8 +53,10 @@
                     </button>
 
                     <!-- lOGO TEXT HERE -->
-                    <a align="center" href="#" class="navbar-brand">PINNACLE FIRST INSPECTION</a>
-                    <P align="center">Inspection & Expenditing Services</P>
+                    <!-- <a align="center" href="./index.html" class="navbar-brand"><img src="./images/logo.jpg" width=400px></a> -->
+                    <a href="./index.html">
+                    <img src="./images/logo.jpg" width=350px></a>
+                    <!-- <P align="center">Inspection & Expenditing Services</P> -->
                </div>
 
                <!-- MENU LINKS -->
@@ -54,7 +67,7 @@
                          <li class="dropdown">
                               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
                               
-                              <ul class="dropdown-menu">
+                              <ul class="dropdown-menu ">
                                    <li><a href="inspection.html">Inspection</a></li>
                                    <li><a href="expenditing.html">Expenditing</a></li>
                                    <li><a href="quality.html">Quality Assurance</a></li>                                   
@@ -76,9 +89,9 @@
                          <div class="caption">
                               <div class="container">
                                    <div class="col-md-6 col-sm-12">
-                                        <h1>MEET (Company_Name)</h1>
+                                        <!-- <h1>MEET Pinnacle First Inspection</h1>
                                         <h3>Technical Advisors managing and monitoring supplier performance.</h3>
-                                        <a href="aboutus.html" class="section-btn btn btn-default">About Us</a>
+                                        <a href="aboutus.html" class="section-btn btn btn-default">About Us</a> -->
                                    </div>
                               </div>
                          </div>
@@ -88,9 +101,9 @@
                          <div class="caption">
                               <div class="container">
                                    <div class="col-md-6 col-sm-12">
-                                        <h1>(Comapany_Name)</h1>
+                                        <!-- <h1>(Comapany_Name)</h1>
                                         <h3>Our Comapny will do out best to be top in inspection business field.</h3>
-                                        <a href="about-us.html" class="section-btn btn btn-default">About Us</a>
+                                        <a href="about-us.html" class="section-btn btn btn-default">About Us</a> -->
                                    </div>
                               </div>
                          </div>
@@ -100,9 +113,9 @@
                          <div class="caption">
                               <div class="container">
                                    <div class="col-md-6 col-sm-12">
-                                        <h1>(Company_Name))</h1>
+                                        <!-- <h1>Pinnacle First Inspection)</h1>
                                         <h3>Our Comapny will do out best to be top in inspection business field.</h3>
-                                        <a href="aboutus.html" class="section-btn btn btn-default">About Us</a>
+                                        <a href="aboutus.html" class="section-btn btn btn-default">About Us</a> -->
                                    </div>
                               </div>
                          </div>
@@ -117,15 +130,13 @@
                     <div class="row">
                          <div class="col-md-12 col-sm-12">
                               <div class="text-center">
-                                   <h2>About us</h2>
+                                   <h1>About us</h1>
 
                                    <br>
 
-                                   <p class="lead">(Company_Name) is an independent technical Inspection and Expediting Agency, based in
-                                        The Hague, The Netherlands.
-                                        
-                                        (Company_Name) was established in January 2013 with the strategic goals of providing Quality Assurance, Inspection and Expediting Services to our clients built upon the fundamental principles of delivering total project support and integration, achieving highest standards of management and contractor quality, and promoting the most cost effective service possible.
-                                        
+                                   <p class="lead">Pinnacle First is an independent technical Inspection and Expediting Agency, based in Bangaluru, India.
+                                        Pinnacle First was established in June 2018 with the strategic goals of providing Quality Assurance, Inspection and Expediting Services to our clients built upon the fundamental principles of delivering total project support and integration, achieving highest standards of management and contractor quality and promoting the most cost effective service possible. We provide our services all over India.
+                                        We ensure our employees are fully trained to work as per requirement.
                                         </p>
                               </div>
                          </div>
@@ -138,7 +149,7 @@
                     <div class="row">
                          <div class="col-md-12 col-sm-12">
                               <div class="section-title text-center">
-                                   <h2>OUR SERVICES <small>........................</small></h2>
+                                   <h1><a id="services" >OUR SERVICES </a></h1>
                               </div>
                          </div>
 
@@ -149,11 +160,18 @@
                                    </div>
                                    <div class="team-info">
                                         <h3><a href="inspection.html">INSPECTION</a></h3>
-                                        <p class="lead"><small>from</small> <strong>Rs. </strong> <small>per month</small></p>
-                                        <p>Our Inspection Services covers 3 different areas:</p>
+                                        <!-- <p class="lead"><small>from</small> <strong>Rs. </strong> <small>per month</small></p> -->
+                                        <p>Delivering high quality and sophisticated products requires full control of processes and
+                                             performances.
+                                             Our inspector continuously trained to attend process such as welding, NDT, coating and
+                                             any testing activity.
+                                             Pinnacle will ensure you get what you expect. Our Inspectors ensure by appropriate
+                                             checks and tests, that the products ordered by our clients are manufactured and
+                                             supplied strictly in accordance with the specified requirements and applicable codes
+                                             and practices.</p>
                                    </div>
                                    <div class="team-thumb-actions">
-                                        <a href="offers.html" class="section-btn btn btn-primary btn-block">View Offer</a>
+                                        <a href="inspection.html" class="section-btn btn btn-primary btn-block">View More</a>
                                    </div>
                               </div>
                          </div>
@@ -165,11 +183,20 @@
                                    </div>
                                    <div class="team-info">
                                         <h3><a href="expiditing.html">EXPIDITING</a></h3>
-                                        <p class="lead"><small>from</small> <strong>Rs. </strong> <small>per month</small></p>
-                                        <p>Our service definition is that our expeditors comprehensively evaluate the supplier's production activities to ensure that our client delivery requirements will be achieved, and to assist in identifying potential problems or delays in the process at the earliest possible point with a view to establishing remedial actions with the supplier to return any slippage back to program.</p>
+                                        <!-- <p class="lead"><small>from</small> <strong>Rs. </strong> <small>per month</small></p> -->
+                                        <p>Time is essential. As we raise expectations, managing a critical delay can be crucial for the success of a
+                                             project.
+                                             The Expediter proactively engages with the Vendor to determine and verify that manufacturing and
+                                             documental progress expected are achieved; when a delay occurs he drives the Vendor to a mitigation
+                                             plan.
+                                             Pinnacle will keep the supplier's progress under control.
+                                             Our service definition is that our expeditors comprehensively evaluate the supplier's production
+                                             activities to ensure that our client delivery requirements will be achieved, and to assist in
+                                             identifying potential problems or delays in the process at the earliest possible point with a view
+                                             to establishing remedial actions with the supplier to return any slippage back to program.</p>
                                    </div>
                                    <div class="team-thumb-actions">
-                                        <a href="offers.html" class="section-btn btn btn-primary btn-block">View Offer</a>
+                                        <a href="expenditing.html" class="section-btn btn btn-primary btn-block">View More</a>
                                    </div>
                               </div>
                          </div>
@@ -181,11 +208,14 @@
                                    </div>
                                    <div class="team-info">
                                         <h3><a href="quality.html">QUALITY ASSURANCE </a></h3>
-                                        <p class="lead"><small>from</small> <strong>Rs. </strong> <small>per month</small></p>
-                                        <p>Our company have a number of registered Consultants available to advise companies on the establishment and further development of ISO 9000 system requirements into their organisation.</p>
+                                        <!-- <p class="lead"><small>from</small> <strong>Rs. </strong> <small>per month</small></p> -->
+                                        <p>Certification is a key to gain trust, demonstrating that your product or service meets the expectations of
+                                             your customers. In some fields, certification is an essential requirement.
+                                             Pinnacle performs audits for the most important certification bodies, and provides consultants to
+                                             companies who wants to qualify and evaluate suppliers performances according to ISO 9001</p>
                                    </div>
                                    <div class="team-thumb-actions">
-                                        <a href="offers.html" class="section-btn btn btn-primary btn-block">View Offer</a>
+                                        <a href="quality.html" class="section-btn btn btn-primary btn-block">View More</a>
                                    </div>
                               </div>
                          </div>
@@ -272,7 +302,7 @@
                     </div>
                </div>
           </section> -->
-          <section id="testimonial">
+          <!-- <section id="testimonial">
                <div class="container">
                     <div class="row">
 
@@ -362,7 +392,7 @@
                         </div>
                     </div>
                </div>
-          </section> 
+          </section>  -->
      </main>
 
      <!-- CONTACT -->
@@ -402,74 +432,7 @@
      </section>       
 
      <!-- FOOTER -->
-     <footer id="footer">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-4 col-sm-6">
-                         <div class="footer-info">
-                              <div class="section-title">
-                                   <h2>Headquarter</h2>
-                              </div>
-                              <address>
-                                   <p>Udaipur-313001 <br>RAJASTHAN, INDIA</p>
-                              </address>
-
-                              <ul class="social-icon">
-                                   <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
-                                   <li><a href="#" class="fa fa-twitter"></a></li>
-                                   <li><a href="#" class="fa fa-instagram"></a></li>
-                              </ul>
-
-                              <div class="copyright-text"> 
-                                   <p>Copyright &copy; 2020 Company Name</p>
-                                  
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <div class="footer-info">
-                              <div class="section-title">
-                                   <h2>Contact Info</h2>
-                              </div>
-                              <address>
-                                   <p>+1 333 4040 5566</p>
-                                   <p><a href="mailto:contact@company.com">contact@company.com</a></p>
-                              </address>
-
-                              <div class="footer_menu">
-                                   <h2>Quick Links</h2>
-                                   <ul>
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about-us.html">About Us</a></li>
-                                        <li><a href="terms.html">Terms & Conditions</a></li>
-                                        <li><a href="contact.html">Contact Us</a></li>
-                                   </ul>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-12">
-                         <div class="footer-info newsletter-form">
-                              <div class="section-title">
-                                   <h2>Newsletter Signup</h2>
-                              </div>
-                              <div>
-                                   <div class="form-group">
-                                        <form action="#" method="get">
-                                             <input type="email" class="form-control" placeholder="Enter your email" name="email" id="email" required>
-                                             <input type="submit" class="form-control" name="submit" id="form-submit" value="Send me">
-                                        </form>
-                                        <span><sup>*</sup> Please note - we do not spam your email.</span>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-                    
-               </div>
-          </div>
-     </footer>
+     <footer id="footer"></footer>
 
      <!-- SCRIPTS -->
      <script src="js/jquery.js"></script>
